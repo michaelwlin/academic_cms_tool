@@ -3,7 +3,7 @@ const cors = require('cors');
 const mysql = require('mysql')
 const app = express();
 const bodyParser = require('body-parser');
-const secret = require('./secret')
+const secret = require('./secret');
 
 app.use(cors());
 app.use(express.json());
